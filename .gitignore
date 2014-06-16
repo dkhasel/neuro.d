@@ -2,3 +2,4 @@ simple-neuron
 .project
 .dub/
 .buildpath
+neuro-d
