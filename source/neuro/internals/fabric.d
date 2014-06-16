@@ -52,7 +52,7 @@ class Fabric : IFabric
 	
 	void shuffle(float connectionFactor = 0.35f)
 	{
-		// Connect each neuron to 30% of the other available neurons, randomly
+		// Connect each neuron to connectionFactor% of the other available neurons, randomly
 		int sampleSize = cast(int)(connectionFactor * cast(float)_neurons.length);
 		for (int j = 0; j < _neurons.length; j++)
 		{
